@@ -23,7 +23,7 @@ void main() {
 	cin >> age;
 	cout << "So you are " << age << " years old!\n";
 
-	cout << "What is you favorite number?\n";
+	cout << "What is your favorite number?\n";
 	cin >> favNum;
 	cout << "Well you are now stuck in this dungeon for " << favNum << " years!\n";
 
@@ -69,6 +69,13 @@ void main() {
 
 	cout << "Stats\n";
 	cout << "HP: " << hp << "\nSTR: " << str << "\nDEF: " << def << "\nAGI: " << agi << endl;
+
+	cout << "The first gate is opening, counting down...\n";
+	for (int i = 10; i >= 0; i--) {
+		cout << i << endl;
+	}
+
+
 
 	system("pause");
 }
