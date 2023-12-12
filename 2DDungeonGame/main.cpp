@@ -2,13 +2,12 @@
 #include <string>
 #include "intro.h"
 #include "puzzles.h"
+#include "Character.h"
 using namespace std;
 
 
 void main() {
 	string name;
-	int age;
-	int favNum;
 	//hero stats
 	int hp = 0;
 	int str = 0;
@@ -65,6 +64,10 @@ void main() {
 	hp = hp - dmg;
 
 	cout << "You took " << dmg << " damage!\n " << "HP: " << hp << endl;
+
+	Character testCharacter;
+	testCharacter.setupStats(hp, str, def, agi);
+	testCharacter.showStats();
 
 	system("pause");
 }

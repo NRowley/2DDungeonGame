@@ -4,6 +4,9 @@
 using namespace std;
 
 void intro(){
+	string name;
+	int age;
+	int favNum;
 	cout << "Hello world!" << endl;
 cout << "What is your name?" << endl;
 cin >> name;
