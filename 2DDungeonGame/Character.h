@@ -1,7 +1,9 @@
 #pragma once
+
+
 class Character
 {
-private:
+protected:
 	//attributes
 	int hp, maxHp, str, def, agi;
 public:
